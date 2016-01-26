@@ -17,21 +17,21 @@ html {
 }
 
 .left-ear {
-  transform: translate(0px,5px);
+  transform: translate(0, 5px);
   transition: all .25s linear;
 }
 
 .right-ear {
-  transform: translate(0px,5px);
+  transform: translate(0, 5px);
   transition: all .25s linear;
 }
 
-.bear:hover .left-ear{
-  transform: translate(0px,-5px);
+.bear:hover .left-ear {
+  transform: translate(0, -5px);
 }
 
 .bear:hover .right-ear {
-  transform: translate(0px,-5px);
+  transform: translate(0, -5px);
 }
 
 .right-eye {
@@ -43,7 +43,7 @@ html {
 }
 
 @keyframes shiftyeyes {
-  
+
   0% { transform: translateX(-10px); }
 
   100% { transform: translateX(10px); }
